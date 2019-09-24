@@ -69,7 +69,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename = "/react-todolistapp/">
       <div className='App'>
         <div className='container'>
           <Header/>
